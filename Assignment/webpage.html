@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Coffee Home</title>
+    <meta charset="utf-8">
+    </head>
+
+    <style>
+        *{margin: 0px; padding: 0px; box-sizing: border-box;}
+        nav{background-color: green; 
+            width: 100%;; height: 100px; 
+            position: absolute; line-height: 50px;}
+        nav ul{list-style-type: none;}
+        nav ul li a:hover{color: white; 
+            font-size: 25px; padding: 0px; 
+            background-color: black; text-decoration:none;}
+        nav ul li{font-size: 25px; float: right; display: inline;
+            padding: 20px; text-align: center;}
+        nav ul li a{text-decoration:none;}
+        .logo{padding: 10px; float:left}
+        .pic{padding-top: 100px;}
+        .mySlides {display: none;}
+        .prodcategory{font-size: 25px;}
+        .itemdesc p{font-size: 15px; text-align: center;}
+        .flexbox{display: flex; flex-wrap: wrap; text-align: center;}
+        main div div div{border: 2px; border-style: outset;}
+        footer{background-color: green; height: 45px;}
+        footer ul li{flex: left; padding-left: 25px; display: inline;}
+        footer ul li a{color: black;}
+        #topbtn{position: fixed; bottom: 20px;
+            right: 30px; font-size: 20px; border: none;
+            background-color: black; opacity: 0.5;
+            color: white; padding: 15px;
+            border-radius: 5px; cursor: pointer;}
+        #topbtn:hover {opacity: 1;}
+    </style>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo"><a href="./webpage.html">
+                    <img src="../Lab3/Images/mylogo.png" alt="logo" height="75px">
+                </a></div>
+                <ul>
+                    <li><a href= "">Machine</a></li>
+                    <li><a href= "">Coffee Beans</a></li>
+                    <li><a href= "">About Us</a></li>
+                    <li><a href= "./webpage.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="pic">
+                <img src="Nice Coffee.png" width="100%" height="645px">
+            </div>
+
+            <div style="font-size: 50px; font-family:'Courier New', Courier, monospace;">
+                <p>Product</p>
+            </div>
+
+            <div class="prodcategory">
+                <p>Coffee Beans</p>
+                <div class="flexbox">
+                    <div>
+                        <img src="coffeebean1.jpg" width="375px" height="200">
+                        <p>Product 1</p>
+                        <p>RM30</p>
+                        <button style="color: white; background-color: green;">Buy Now</button>
+                    </div>
+                    <div>
+                        <img src="coffeebean2.jpg" width="375px" height="200">
+                        <p>Product 2</p>
+                        <p>RM35</p>
+                        <button style="color: white; background-color: green;">Buy Now</button>
+                    </div>
+                </div>
+                <p>Coffee Machine</p>
+                <div class="flexbox">
+                    <div>
+                        <img src="coffeebean1.jpg" width="375px" height="200">
+                        <p>Product 1</p>
+                        <p>RM30</p>
+                        <button style="color: white; background-color: green;">Buy Now</button>
+                    </div>
+                    <div>
+                        <img src="coffeebean2.jpg" width="375px" height="200">
+                        <p>Product 2</p>
+                        <p>RM35</p>
+                        <button style="color: white; background-color: green;">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+                <footer>
+                    <ul>
+                        <li style="padding-left: 0px;">
+                            <a href=""><b>About Us</b></a>
+                        </li>
+                        <li>
+                            <a href=""><b>Coffee Beans</b></a>
+                        </li>
+                        <li>
+                            <a href=""><b>Coffee Machine</b></a>
+                        </li>
+                    </ul>
+                    <small><i>Copyright &copy; 2021 Nice Coffee</i></small>
+                </footer>
+
+                <button onclick="topFunction()" id="topbtn" title="Go to top">&#65085</button>
+
+                <script>
+                    //Get the button
+                    var mybutton = document.getElementById("topbtn");
+
+                    // When the user clicks on the button, scroll to the top of the document
+                    function topFunction() {
+                        document.documentElement.scrollTop = 0;}
+                </script>
+        </main>
+    </body>
