@@ -6,10 +6,8 @@
 
 <div align="center">
 
-[![Build Status](https://travis-ci.com/vrnsky/android-hacker-tab.svg?branch=master)](https://travis-ci.com/vrnsky/android-hacker-tab)
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/vrnsky/android-hacker-tab.svg)](https://github.com/vrnsky/android-hacker-tab/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/vrnsky/android-hacker-tab.svg)](https://github.com/vrnsky/android-hacker-tab/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/vrnsky/android-hacker-tab.svg)](https://github.com/kamasaky/WEB1201-Assignment/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/vrnsky/android-hacker-tab.svg)](https://github.com/kamasaky/WEB1201-Assignment/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
