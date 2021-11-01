@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://giphy.com/gifs/coffeekult-rj0eZpsHztXJSY0q0q">
+  <img src="https://img.jakpost.net/c/2019/03/12/2019_03_12_67439_1552382803._large.jpg">
 </div>
 
 <h1 align="center">Coffee beans website</h1>
