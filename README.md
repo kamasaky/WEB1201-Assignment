@@ -49,9 +49,7 @@ What things we going to use in order to build the website:
 - <b>CSS</b>
 - <b>JavaScript</b>
 - <b>PHP</b>
-<br>
 <h4>Clarification</h4>
-<br>
 We are going to use <b>Figma</b> for website's content and navigation mock up, <b> HTML, CSS</b> for Front-End development and <b>JavaScript, PHP</b> for back-end development. We are required to create our website <i>without usage of any additional libraries or frameworks</i>, in other words, all codes have to be written from scratch.
 
 ## 🔧 Technical activities <a name = "technical_activities"></a>
