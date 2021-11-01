@@ -1,5 +1,5 @@
 <div align="center">
-  <iframe src="https://giphy.com/embed/rj0eZpsHztXJSY0q0q" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/coffeekult-rj0eZpsHztXJSY0q0q">via GIPHY</a></p>
+  <img src="https://giphy.com/gifs/coffeekult-rj0eZpsHztXJSY0q0q">
 </div>
 
 <h1 align="center">Coffee beans website</h1>
@@ -46,13 +46,14 @@ This is repository for Web Fundamentals group assignment where we create fully f
 
 What things we going to use in order to build the website:
 
-- Figma
-- HTML
-- CSS
-- JavaScript
-- PHP
+- <b>Figma</b>
+- <b>HTML</b>
+- <b>CSS</b>
+- <b>JavaScript</b>
+- <b?PHP</b>
 <br>
 <b>Clarification</b>
+<br>
 We are going to use <b>Figma</b> for website's content and navigation mock up, <b> HTML, CSS</b> for Front-End development and <b>JavaScript, PHP</b> for back-end development. We are required to create our website <i>without usage of any additional libraries or frameworks</i>, in other words, all codes have to be written from scratch.
 
 ## 🔧 Technical activities <a name = "technical_activities"></a>
