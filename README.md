@@ -48,7 +48,7 @@ What things we going to use in order to build the website:
 - <b>HTML</b>
 - <b>CSS</b>
 - <b>JavaScript</b>
-- <b?PHP</b>
+- <b>PHP</b>
 <br>
 <b>Clarification</b>
 <br>
