@@ -1,104 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Main Page</title>
-    <style>
-        *{
-            margin: 0px; padding: 0px; box-sizing: border-box;
-        }
-        nav{width: 100%; 
-            height: 75px; 
-            background-color:green; 
-            line-height: 75px; 
-            padding: 0px 50px; 
-            position: fixed; 
-            z-index: 1;}
-
-        nav ul{
-            float: right;
-        }
-        nav ul li{
-            display: inline-block; 
-            list-style: none;;
-        }
-
-        nav ul li a{
-            color:white;
-            text-decoration: none;
-            font-size: 18px;
-            text-transform: uppercase;
-            padding: 0px 32px;
-            font-weight: bold;
-        }
-        nav ul li a:hover{
-            color: #c0d
-        }
-        
-        .logo{
-            font-size: 30px; 
-            font-weight: bold; 
-            letter-spacing: 1.5px;
-        }
-
-        nav .logo p{
-            float: left;
-            color: white;
-        }
-
-        .banner{
-        padding-top: 70px; 
-        }
-
-        main{
-            background-color: black; 
-            color: white;
-        }
-        .itemdesc{
-            color: turquoise;
-        }
-    </style>
+    <title>Nice Coffee Beans | Home</title>
+    <link rel="stylesheet" href="./styles/common.css" type="text/css">
 </head>
 
 <body>
     <nav>
-        <div class="logo">
-            <p>Navbar</p>
+        <div id="navigation">
+            <ul>
+                <!-- <li><a href="index.html"><img src="img/logo.png" width="60" height="50"></a></li> -->
+                <li><a href="./pages/beans.html">Coffee Beans</a></li>
+                <li><a href="./pages/machines.html">Cofee Machines</a></li>
+                <li><a href="./pages/accessories.html">Accessories</a></li>
+                <li><a href="./pages/grinders.html">Grinders</a></li>
+                <li><a href="./pages/shops.html">For cofee shops</a></li>
+            </ul>
         </div>
-        <ul>
-            <li><a href= "">Coffee Beans | Home</a></li>
-            <li><a href= "">Coffee Beans</a></li>
-            <li><a href= "">Machine</a></li>
-        </ul>
     </nav>
-
     <main>
-        <div class="banner">
-            <img src="./img/Nice Coffee.png" width="100%" height="250px">
+        <div id="beans">
+            <h3>Coffee Beans</h3>
+            <ul>
+                <li><img src="./img/beans/ truestone.jpg" width="360" height="310" alt="True stone coffee" /></li>
+                <li><img src="./img/beans/bunacoffee.jpeg" width="360" height="310" alt="Buna Coffee"></li>
+                <li><img src="./img/beans/earlybirdcoffee.jpeg" width="360" height="310" alt="Early Bird Coffee"></li>
+                <li><img src="./img/beans/mazevo.jpg" width="360" height="310" alt="Mazevo Coffee"></li>
+                <li><img src="./img/beans/ozone.jpg" width="360" height="310" alt="Ozone Coffee"></li>
+            </ul>
+    
         </div>
-
-        <div style="padding-top: 100px;">
-        <p style="font-size: 70px;">
-        Coffee Beans
-        </p>
-        <table class="itemdesc" border="0">
-            <tr align="center">
-                <td>
-                    <img src="./img/coffeebean1.jpg" width="400" height="200">
-                    <p>Product 1</p>
-                    <p>RM30</p>
-                    <button style="color: white; background-color: green;">Buy Now</button>
-                </td>
-                <td>
-                    <img src = "./img/coffeebean2.jpg" width="400" height="200">
-                    <p>Product 2</p>
-                    <p>RM35</p>
-                    <button style="color: white; background-color: green;">Buy Now</button>
-                </td>
-            </tr>
-        </table>
+    
+        <div id="machines">
+            <h3>Coffee Machines</h3>
+            <ul>
+                <li><img src="./img/machines/coffeemachine1.jpg" width="360" height="310" alt="Coffee Machine One"></li>
+                <li><img src="./img/machines/coffeemachine2.jpg" width="360" height="310" alt="Cofee Machine Two"></li>
+                <li><img src="./img/machines/coffeemachine3.jpg" width="360" height="310" alt="Coffee Machine Three"></li>
+                <li><img src="./img/machines/coffeemachine4.jpg" width="360" height="310" alt="Coffee Machine Four"></li>
+                <li><img src="./img/machines/coffeemachine5.jpg" width="360" height="310" alt="Cofee Machine Five"></li>
+            </ul>
         </div>
     </main>
-    <footer style="float: right;">&copy; Nice Coffee Company. All rights reserved.</footer>
+    <div id="footer">
+        <footer>
+            <div class="info">
+                <ul>
+                    <li><a href="./pages/about.html">About Us</a></li>
+                    <li><a href="./pages/contact.html">Contact Us</a></li>
+                    <li><a href="./pages/terms.html">Terms</a></li>
+                    <li><a href="./pages/faq.html">FAQ</a></li>
+                </ul>
+                2021 &copy; Nice Coffee Company. All rights reserved.
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
