@@ -1,103 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-</html>
-=======
-    <head>
-    <title>Coffee Home</title>
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    </head>
+    <title>Nice Coffee Beans | Home</title>
+    <link rel="stylesheet" href="./styles/common.css" type="text/css">
+</head>
 
-    <style>
-        .pic{padding: 0px;}
-        .prodcategory{font-size: 25px; text-align: center;}
-        .flexbox{display: flex; flex-wrap:wrap; text-align: center; justify-content: center;}
-        main div div div{border: 2px; border-style: outset;}
-        p{color: black;}
-    </style>
-
-    <body>
-        <header>
-            <nav>
-                <div class="logo"><a href="./index.html">
-                    <img src="nicelogo.png" alt="logo" height="80px" width="80px">
-                </a></div>
+<body>
+    <nav>
+        <div id="navigation">
+            <ul>
+                <!-- <li><a href="index.html"><img src="img/logo.png" width="60" height="50"></a></li> -->
+                <li><a href="./pages/beans.html">Coffee Beans</a></li>
+                <li><a href="./pages/machines.html">Cofee Machines</a></li>
+                <li><a href="./pages/accessories.html">Accessories</a></li>
+                <li><a href="./pages/grinders.html">Grinders</a></li>
+                <li><a href="./pages/shops.html">For cofee shops</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="beans">
+            <h3>Coffee Beans</h3>
+            <ul>
+                <li><img src="./img/beans/ truestone.jpg" width="360" height="310" alt="True stone coffee" /></li>
+                <li><img src="./img/beans/bunacoffee.jpeg" width="360" height="310" alt="Buna Coffee"></li>
+                <li><img src="./img/beans/earlybirdcoffee.jpeg" width="360" height="310" alt="Early Bird Coffee"></li>
+                <li><img src="./img/beans/mazevo.jpg" width="360" height="310" alt="Mazevo Coffee"></li>
+                <li><img src="./img/beans/ozone.jpg" width="360" height="310" alt="Ozone Coffee"></li>
+            </ul>
+    
+        </div>
+    
+        <div id="machines">
+            <h3>Coffee Machines</h3>
+            <ul>
+                <li><img src="./img/machines/coffeemachine1.jpg" width="360" height="310" alt="Coffee Machine One"></li>
+                <li><img src="./img/machines/coffeemachine2.jpg" width="360" height="310" alt="Cofee Machine Two"></li>
+                <li><img src="./img/machines/coffeemachine3.jpg" width="360" height="310" alt="Coffee Machine Three"></li>
+                <li><img src="./img/machines/coffeemachine4.jpg" width="360" height="310" alt="Coffee Machine Four"></li>
+                <li><img src="./img/machines/coffeemachine5.jpg" width="360" height="310" alt="Cofee Machine Five"></li>
+            </ul>
+        </div>
+    </main>
+    <div id="footer">
+        <footer>
+            <div class="info">
                 <ul>
-                    <li><a href= "contact.html">Contact Us</a></li>
-                    <li><a href= "aboutus.html">About Us</a></li>
-                    <li><a href= "index.html">Home</a></li>
+                    <li><a href="./pages/about.html">About Us</a></li>
+                    <li><a href="./pages/contact.html">Contact Us</a></li>
+                    <li><a href="./pages/terms.html">Terms</a></li>
+                    <li><a href="./pages/faq.html">FAQ</a></li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="pic">
-                <img src="banner1.jpeg" width="100%" height="645px">
+                2021 &copy; Nice Coffee Company. All rights reserved.
             </div>
-
-            <div style="font-size: 50px; font-family:'Courier New', Courier, monospace;">
-                <p style="text-align: center">Product Featured</p>
-            </div>
-
-            <div class="prodcategory">
-                <p>Coffee Beans</p>
-                <div class="flexbox">
-                    <div>
-                        <img src="coffeebean1.jpg" width="375px" height="200">
-                        <p>Product 1</p>
-                        <p>RM30</p>
-                        <button style="color: white; background-color: green;">Buy Now</button>
-                    </div>
-                    <div>
-                        <img src="coffeebean2.jpg" width="375px" height="200">
-                        <p>Product 2</p>
-                        <p>RM35</p>
-                        <button style="color: white; background-color: green;">Buy Now</button>
-                    </div>
-                </div>
-                <p>Coffee Machine</p>
-                <div class="flexbox">
-                    <div>
-                        <img src="coffeebean1.jpg" width="375px" height="200">
-                        <p>Product 1</p>
-                        <p>RM30</p>
-                        <button style="color: white; background-color: green;">Buy Now</button>
-                    </div>
-                    <div>
-                        <img src="coffeebean2.jpg" width="375px" height="200">
-                        <p>Product 2</p>
-                        <p>RM35</p>
-                        <button style="color: white; background-color: green;">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-            </main>
-            
-            <footer>
-                <ul>
-                    <li style="padding-left: 0px;">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="aboutus.html"><b>About Us</b></a>
-                    </li>
-                    <li>
-                        <a href="contact.html"><b>Contact</b></a>
-                    </li>
-                </ul>
-                <small><i>Copyright &copy; 2021 Nice Coffee</i></small>
-            </footer>
-
-            <button onclick="topFunction()" id="topbtn" title="Go to top">&#65085</button>
-
-            <script>
-                //Get the button
-                var mybutton = document.getElementById("topbtn");
-
-                // When the user clicks on the button, scroll to the top of the document
-                function topFunction() {
-                    document.documentElement.scrollTop = 0;}
-            </script>
-    </body>
+        </footer>
+    </div>
+</body>
 </html>
