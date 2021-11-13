@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> <a href="https://red-forest-014eadb00.azurestaticapps.net/contact.html">You can access and test our website by clicking here</a>
+<p align="center"> <a href="https://red-forest-014eadb00.azurestaticapps.net/">You can access and test our website by clicking here</a>
     <br> 
 </p>
 
