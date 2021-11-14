@@ -57,3 +57,8 @@ a:visited{
     text-align: center;
     padding-left: 5em;
 }
+
+/* TODO move to another file */
+img {
+	max-width: 25%;
+}
