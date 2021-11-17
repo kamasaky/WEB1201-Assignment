@@ -45,7 +45,7 @@ section{
     padding:2rem 7%;
 }
 
-.heading{
+.name{
     text-align: center;
     color:#fff;
     text-transform: uppercase;
@@ -53,12 +53,12 @@ section{
     font-size: 4rem;
 }
 
-.heading span{
+.name span{
     color:var(--main-color);
     text-transform: uppercase;
 }
 
-.button{
+.name{
     margin-top: 1rem;
     display: inline-block;
     padding:.9rem 3rem;
@@ -400,32 +400,32 @@ section{
     color:var(--main-color);
 }
 
-.contact .column{
+.social .column{
     display: flex;
     background:var(--black);
     flex-wrap: wrap;
     gap:1rem;
 }
 
-.contact .column .map{
+.social .column .map{
     flex:1 1 45rem;
     width: 100%;
     object-fit: cover;
 }
 
-.contact .column form{
+.social .column form{
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
 }
 
-.contact .column form h3{
+.social .column form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
     color:#fff;
 }
 
-.contact .column form .form{
+.social .column form .form{
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -434,13 +434,13 @@ section{
     border:var(--border);
 }
 
-.contact .column form .form span{
+.social .column form .form span{
     color:#fff;
     font-size: 2rem;
     padding-left: 2rem;
 }
 
-.contact .column form .form input{
+.social .column form .form input{
     width: 100%;
     padding:2rem;
     font-size: 1.7rem;
