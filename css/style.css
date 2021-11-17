@@ -188,13 +188,13 @@ section{
     height: 7rem;
 }
 
-.header .cart .cart-entity .content h3{
+.header .cart .cart-entity .product h3{
     font-size: 2rem;
     color:var(--black);
     padding-bottom: .5rem;
 }
 
-.header .cart .cart-entity .content .cost{
+.header .cart .cart-entity .product .cost{
     font-size: 1.5rem;
     color:var(--main-color);
 }
@@ -475,28 +475,28 @@ section{
     transform: scale(1.2);
 }
 
-.articles .item-container .item .content{
+.articles .item-container .item .product{
     padding:2rem;
 }
 
-.articles .item-container .item .content .title{
+.articles .item-container .item .product .title{
     font-size: 2.5rem;
     line-height: 1.5;
     color:#fff;
 }
 
-.articles .item-container .item .content .title:hover{
+.articles .item-container .item .product .title:hover{
     color:var(--main-color);
 }
 
-.articles .item-container .item .content span{
+.articles .item-container .item .product span{
     color:var(--main-color);
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
 }
 
-.articles .item-container .item .content p{
+.articles .item-container .item .product p{
     font-size: 1.6rem;
     line-height: 1.8;
     color:#ccc;
