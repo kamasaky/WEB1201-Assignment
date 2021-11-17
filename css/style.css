@@ -213,17 +213,17 @@ section{
     background-position: center;
 }
 
-.top .content{
+.top .product{
     max-width: 60rem;
 }
 
-.top .content h3{
+.top .product h3{
     font-size: 6rem;
     text-transform: uppercase;
     color:#fff;
 }
 
-.top .content p{
+.top .product p{
     font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
@@ -250,12 +250,12 @@ section{
     padding:2rem;
 }
 
-.intro .column .content h3{
+.intro .column .product h3{
     font-size: 3rem;
     color:#fff;
 }
 
-.intro .column .content p{
+.intro .column .product p{
     font-size: 1.6rem;
     color:#ccc;
     padding:1rem 0;
@@ -338,26 +338,26 @@ section{
     height: 25rem;
 }
 
-.items .item-container .item .content h3{
+.items .item-container .item .product h3{
     color:#fff;
     font-size: 2.5rem;
 }
 
-.items .item-container .item .content .beans{
+.items .item-container .item .product .beans{
     padding: 1.5rem;
 }
 
-.items .item-container .item .content .beans i{
+.items .item-container .item .product .beans i{
     font-size: 1.7rem;
     color: var(--main-color);
 }
 
-.items .item-container .item .content .cost{
+.items .item-container .item .product .cost{
     color:#fff;
     font-size: 2.5rem;
 }
 
-.items .item-container .item .content .cost span{
+.items .item-container .item .product .cost span{
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
@@ -623,11 +623,11 @@ section{
         text-align: center;
     }
 
-    .top .content h3{
+    .top .product h3{
         font-size: 4.5rem;
     }
 
-    .top .content p{
+    .top .product p{
         font-size: 1.5rem;
     }
 
