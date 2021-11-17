@@ -2,28 +2,28 @@ let navigation = document.querySelector('.navigation');
 
 document.querySelector('#main').onclick = () =>{
     navigation.classList.toggle('active');
-    Searchingform.classList.remove('active');
-    cartentity.classList.remove('active');
+    searchingForm.classList.remove('active');
+    cartEntity.classList.remove('active');
 }
 
-let Searchingform = document.querySelector('.search-form');
+let searchingForm = document.querySelector('.searching-form');
 
 document.querySelector('#search').onclick = () =>{
-    Searchingform.classList.toggle('active');
+    searchingForm.classList.toggle('active');
     navigation.classList.remove('active');
-    cartentity.classList.remove('active');
+    cartEntity.classList.remove('active');
 }
 
-let cartentity = document.querySelector('.cart-items-container');
+let cartEntity = document.querySelector('.cart-entity');
 
 document.querySelector('#cart').onclick = () =>{
-    cartentity.classList.toggle('active');
+    cartEntity.classList.toggle('active');
     navigation.classList.remove('active');
-    Searchingform.classList.remove('active');
+    searchingForm.classList.remove('active');
 }
 
 window.onscroll = () =>{
     navigation.classList.remove('active');
-    Searchingform.classList.remove('active');
-    cartentity.classList.remove('active');
+    searchingForm.classList.remove('active');
+    cartEntity.classList.remove('active');
 }
