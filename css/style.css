@@ -172,7 +172,7 @@ section{
     gap:1.5rem;
 }
 
-.header .cart .cart-entity .width{
+.header .cart .cart-entity .fas fa-times{
     position: absolute;
     top:1rem; right: 1rem;
     font-size: 2rem;
@@ -180,7 +180,7 @@ section{
     color: var(--black);
 }
 
-.header .cart .cart-entity .width:hover{
+.header .cart .cart-entity .fas fa-times:hover{
     color:var(--main-color);
 }
 
