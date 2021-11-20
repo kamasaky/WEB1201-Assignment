@@ -111,7 +111,7 @@ section{
     color:var(--main-color);
 }
 
-#main{
+#main-btn{
     display: none;
 }
 
