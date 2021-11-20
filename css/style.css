@@ -245,7 +245,7 @@ section{
 .intro .column .pic img{
     width: 100%;
 }
-.intro .column .content{
+.intro .column .product{
     flex:1 1 45rem;
     padding:2rem;
 }
