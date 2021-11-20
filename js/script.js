@@ -1,6 +1,6 @@
 let navigation = document.querySelector('.navigation');
 
-document.querySelector('#main').onclick = () =>{
+document.querySelector('#main-btn').onclick = () =>{
     navigation.classList.toggle('active');
     searchingForm.classList.remove('active');
     cartEntity.classList.remove('active');
@@ -8,15 +8,15 @@ document.querySelector('#main').onclick = () =>{
 
 let searchingForm = document.querySelector('.searching-form');
 
-document.querySelector('#search').onclick = () =>{
+document.querySelector('#search-btn').onclick = () =>{
     searchingForm.classList.toggle('active');
     navigation.classList.remove('active');
     cartEntity.classList.remove('active');
 }
 
-let cartEntity = document.querySelector('.cart-entity');
+let cartEntity = document.querySelector('.cart');
 
-document.querySelector('#cart').onclick = () =>{
+document.querySelector('#cart-btn').onclick = () =>{
     cartEntity.classList.toggle('active');
     navigation.classList.remove('active');
     searchingForm.classList.remove('active');
