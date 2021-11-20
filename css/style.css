@@ -100,14 +100,14 @@ section{
     padding-bottom: .5rem;
 }
 
-.header .buttons div{
+.header .button div{
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
 }
 
-.header .buttons div:hover{
+.header .button div:hover{
     color:var(--main-color);
 }
 
@@ -316,7 +316,7 @@ section{
     padding: 2rem;
 }
 
-.items .item-container .item .buttons a{
+.items .item-container .item .button a{
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -326,7 +326,7 @@ section{
     margin:.3rem;
 }
 
-.items .item-container .item .buttons a:hover{
+.items .item-container .item .button a:hover{
     background:var(--main-color);
 }
 
