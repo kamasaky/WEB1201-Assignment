@@ -1,66 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Nice Coffee Beans | Home</title>
-    <link rel="stylesheet" href="./styles/common.css" type="text/css">
-    <link rel="stylesheet" href="./styles/index.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" product="IE=edge">
+    <meta name="viewport" product="width=device-width, initial-scale=1.0">
+    <title>complete responsive coffee shop website design</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
-    <nav>
-        <div id="navigation">
-            <ul>
-                <!-- <li><a href="index.html"><img src="img/logo.png" width="60" height="50"></a></li> -->
-                <li><a href="./pages/beans.html">Coffee Beans</a></li>
-                <li><a href="./pages/machines.html">Coffee Machines</a></li>
-                <li><a href="./pages/accessories.html">Accessories</a></li>
-                <li><a href="./pages/grinders.html">Grinders</a></li>
-                <li><a href="./pages/shops.html">For coffee shops</a></li>
-            </ul>
-        </div>
-    </nav>
-    <main>
-        <div id="beans">
-            <h3>Coffee Beans</h3>
-            <ul>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/beans/medium/earlybird-1920.jpg"><img src="./img/beans/small/earlybirdcoffee.jpeg" alt="Early Bird Coffee"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/beans/medium/bunacoffee-1920.jpg"><img src="./img/beans/small/bunacoffee.jpeg" alt="Buna Coffeee"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/beans/medium/mazevo-1920.jpg"><img src="./img/beans/small/mazevo.jpg" alt="Mazevo Coffee"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/beans/medium/ozone-1920.jpg"><img src="./img/beans/small/ozone.jpg" alt="Ozone Coffee"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/beans/medium/truestone-1920.jpg"><img src="./img/beans/small/truestone.jpg" alt="True Stone Coffee"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/beans/medium/yellowcat-1920.jpg"><img src="./img/beans/small/yellocat.jpeg" alt="Yellow Cat coffeee"></picture></li>
-            </ul>
     
-        </div>
-    
-        <div id="machines">
-            <h3>Coffee Machines</h3>
-            <ul>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/machines/medium/coffeemachine1-1920.jpg"><img src="./img/machines/small/coffeemachine1.jpg" alt="Coffee Machine One"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/machines/medium/coffeemachine2-1920.jpg"><img src="./img/machines/small/coffeemachine2.jpg" alt="Coffee Machine Two"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/machines/medium/coffeemachine3-1920.jpg"><img src="./img/machines/small/coffeemachine3.jpg" alt="Coffee Machine Three"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/machines/medium/coffeemachine4-1920.jpg"><img src="./img/machines/small/coffeemachine4.jpg" alt="Coffee Machine Four"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/machines/medium/coffeemachine5-1920.jpg"><img src="./img/machines/small/coffeemachine5.jpg" alt="Coffee Machine Five"></picture></li>
-                <li><picture><source media="(min-width: 250px), (max-width: 300px)" srcset="./img/machines/medium/coffeemachine6-1920.jpg"><img src="./img/machines/small/coffeemachine7.jpg" alt="Coffee Machine Six"></picture></li>
-            </ul>
-        </div>
-    </main>
-    <div id="footer">
-        <footer>
-            <div class="info">
-                <ul>
-                    <li><a href="./pages/about.html">About Us</a></li>
-                    <li><a href="./pages/contact.html">Contact Us</a></li>
-                    <li><a href="./pages/terms.html">Terms</a></li>
-                    <li><a href="./pages/faq.html">FAQ</a></li>
-                </ul>
-                2021 &copy; Nice Coffee Company. All rights reserved.
-            </div>
-        </footer>
-    </div>
-</body>
+<!-- header section starts  -->
 
+<header class="header">
+
+    <a href="#" class="badge">
+        <img src="icon.png" alt="">
+    </a>
+
+    <nav class="navigation">
+        <a href="#home">home</a>
+        <a href="#intro">intro</a>
+        <a href="#main">main</a>
+        <a href="#coffee-beans">coffee-beans</a>
+        <a href="#rating">rating</a>
+        <a href="#social">social</a>
+        <a href="#articles">articles</a>
+    </nav>
+
+    <div class="symbols">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="main-btn"></div>
+    </div>
+
+    <div class="searching-form">
+        <input type="search" id="search-input" placeholder="Type here...">
+        <label for="search-input" class="fas fa-search"></label>
+    </div>
+
+    <div class="product-container">
+        <div class="cart-entity">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-entity-1.png" alt="">
+            <div class="product">
+                <h3>Mazero coffee</h3>
+                <div class="cost">RM 39.99/-</div>
+            </div>
+        </div>
+        <div class="cart-entity">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-entity-2.png" alt="">
+            <div class="product">
+                <h3>cart coffee-info 02</h3>
+                <div class="cost">RM 39.99/</div>
+            </div>
+        </div>
+        <div class="cart-entity">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-entity-3.png" alt="">
+            <div class="product">
+                <h3>cart coffee-info 03</h3>
+                <div class="cost">RM 39.99/</div>
+            </div>
+        </div>
+        <div class="cart-entity">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-entity-4.png" alt="">
+            <div class="product">
+                <h3>cart coffee-info 04</h3>
+                <div class="cost">RM 39.99/</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="top" id="top">
+
+    <div class="product">
+        <h3>Start your day with high quality coffee!</h3>
+        <p>Buy now and feel what its like to drink truly good beverage!</p>
+        <a href="#" class="btn">Order now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="intro" id="intro">
+
+    <h1 class="heading"> <span>intro</span> us </h1>
+
+    <div class="column">
+
+        <div class="image">
+            <img src="images/intro-img.jpeg" alt="">
+        </div>
+
+        <div class="product">
+            <h3>Our coffee beans are made from gold</h3>
+            <p>Everyone in the world loves it</p>
+            <p>Order now and be special</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- intro section ends -->
+
+<!-- main section starts  -->
+
+<section class="main" id="main">
+
+    <h1 class="heading"> our <span>main</span> </h1>
+
+    <div class="coffee-info-container">
+
+        <div class="coffee-info">
+            <img src="images/main-1.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="cost">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="coffee-info">
+            <img src="images/main-2.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="cost">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="coffee-info">
+            <img src="images/main-3.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="cost">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="coffee-info">
+            <img src="images/main-4.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="cost">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="coffee-info">
+            <img src="images/main-5.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="cost">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="coffee-info">
+            <img src="images/main-6.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="cost">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- main section ends -->
+
+<section class="coffee-beans" id="coffee-beans">
+
+    <h1 class="heading"> our <span>coffee-beans</span> </h1>
+
+    <div class="coffee-info-container">
+
+        <div class="coffee-info">
+            <div class="symbols">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="pic">
+                <img src="images/coffee-1.png" alt="">
+            </div>
+            <div class="product">
+                <h3>fresh coffee</h3>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="cost">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="coffee-info">
+            <div class="symbols">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="pic">
+                <img src="images/coffee-2.png" alt="">
+            </div>
+            <div class="product">
+                <h3>fresh coffee</h3>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="cost">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="coffee-info">
+            <div class="symbols">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="pic">
+                <img src="images/coffee-3.png" alt="">
+            </div>
+            <div class="product">
+                <h3>fresh coffee</h3>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="cost">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- rating section starts  -->
+
+<section class="rating" id="rating">
+
+    <h1 class="heading"> customer's <span>rating</span> </h1>
+
+    <div class="coffee-info-container">
+
+        <div class="coffee-info">
+            <img src="images/rating.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/photo-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="coffee-info">
+            <img src="images/rating.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/photo-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="coffee-info">
+            <img src="images/rating.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/photo-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- rating section ends -->
+
+<!-- social section starts  -->
+
+<section class="social" id="social">
+
+    <h1 class="heading"> <span>social</span> us </h1>
+
+    <div class="column">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="input-coffee-info">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="input-coffee-info">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="input-coffee-info">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="social now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- social section ends -->
+
+<!-- articles section starts  -->
+
+<section class="articles" id="articles">
+
+    <h1 class="heading"> our <span>articles</span> </h1>
+
+    <div class="coffee-info-container">
+
+        <div class="coffee-info">
+            <div class="pic">
+                <img src="images/shot-1.jpeg" alt="">
+            </div>
+            <div class="product">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="coffee-info">
+            <div class="pic">
+                <img src="images/shot-2.jpeg" alt="">
+            </div>
+            <div class="product">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="coffee-info">
+            <div class="pic">
+                <img src="images/shot-3.jpeg" alt="">
+            </div>
+            <div class="product">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- articles section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="ref">
+        <a href="#">home</a>
+        <a href="#">intro</a>
+        <a href="#">main</a>
+        <a href="#">coffee-beans</a>
+        <a href="#">rating</a>
+        <a href="#">social</a>
+        <a href="#">articles</a>
+    </div>
+
+    <div class="authors">created by <span>Egor, Kathiraj, Jason and Kambar</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
