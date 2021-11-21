@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+    <style>
+        *{
+            text-transform: none;
+        }
+        form {
+            margin:  80px auto 50px;
+            width: 500px;
+            padding:12px;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+            background-color: white;
+            text-transform: none;}
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;}
+
+        form li + li {
+            margin-top: 1em;}
+
+        label {
+            display:inline-block;
+            width: 100px;
+            text-align: right;}
+
+        input{
+            width: 300px;
+            box-sizing: border-box;
+            border: 1px solid #999;}
+        textarea {width: 300px; box-sizing: border-box;border: 1px solid #999;
+            vertical-align: top;height: 5em;}
+        .button {padding: 10px; text-align: center; background-color: cornflowerblue;
+            font-size: 20px; border-radius: 10px; margin-left: 180px; cursor: pointer;}
+        button:hover{box-shadow: 5px 5px 15px grey;}
+        .signup{margin-bottom: 44px;margin-left: 60%;}
+        .signup a{color: rgb(84, 127, 219);}
+        .signup a:hover{color: rgb(5, 63, 129);}
+    </style>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="icon">
+            <img src="images/icon.png" alt="">
+        </a>
+    
+        <nav class="navigation">
+            
+            <a href="index.html">Main</a>
+            <a href="register_account.html">SignUp</a>
+            
+        </nav>
+    
+        <div class="buttons">
+            <div class="fas fa-search" id="search"></div>
+            <div class="fas fa-shopping-cart" id="cart"></div>
+            <div class="fas fa-bars" id="main"></div>
+        </div>
+    
+        <div class="searching-from">
+            <input type="search" id="searching-item" placeholder="type here...">
+            <label for="searching-item" class="fas fa-search"></label>
+        </div>
+    
+        <div class="cart">
+            <div class="cart-entity">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-entity-1.png" alt="">
+                <div class="product">
+                    <h3>Mazero coffee</h3>
+                    <div class="cost">RM 39.99/-</div>
+                </div>
+            </div>
+            <div class="cart-entity">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-entity-2.png" alt="">
+                <div class="product">
+                    <h3>Early bird coffee</h3>
+                    <div class="cost">RM 39.99/-</div>
+                </div>
+            </div>
+            <div class="cart-entity">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-entity-3.png" alt="">
+                <div class="product">
+                    <h3>Ozone coffee/h3>
+                    <div class="cost">RM 39.99/-</div>
+                </div>
+            </div>
+            <div class="cart-entity">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-entity-4.png" alt="">
+                <div class="product">
+                    <h3>Starbucks coffee</h3>
+                    <div class="cost">RM 39.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="button">Checkout</a>
+        </div>
+    
+    </header>
+    <form action="process.php" method="post">
+        <ul>
+            <li>
+                <label for="email">Email: </label>
+                <input type="email" id="mail" name="email" required>
+            </li>
+
+            <li>
+                <label for="user_password">Password: </label>
+                <input type="password" id="user_password" name="user_password" required>
+            </li>
+            <li>
+                <button class="button" type="submit" onclick="return validate()">Login</button>
+            </li>
+            <li>
+                <button type="reset" style="font-size: 10px;">Clear</button>
+                <a href="register_account.html" class="signup">Don't have an account? Sign up here.</a>
+            </li>
+        </ul>
+    </form>
+    
+    <section class="bottom">
+
+        <div class="send">
+            <a href="#" class="facebook"></a>
+            <a href="#" class="twitter"></a>
+            <a href="#" class="instagram"></a>
+            <a href="#" class="linkedin"></a>
+            <a href="#" class="pinterest"></a>
+        </div>
+    
+        <div class="ref">
+        
+            <a href="index.html">Main</a>
+            <a href="register_account.html">SignUp</a>
+        </div>
+    
+        <div class="author">created by <span>Egor, Kambar, Kathiraj, Jason and Chong</span> | all rights reserved</div>
+    
+    </section>
+
+    <script>
+        function validate(){
+            var user_password = document.getElementById("user_password").value;
+            var confirm_password = document.getElementById("confirm_password").value;
+
+            if (user_password != confirm_password) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
