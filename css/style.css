@@ -17,14 +17,14 @@
     transition: .2s linear;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
     width: .8rem;
 }
 
@@ -32,20 +32,20 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
     background: #fff;
     border-radius: 5rem;
 }
 
-body{
+body {
     background: var(--bg);
 }
 
-section{
+section {
     padding:2rem 7%;
 }
 
-.name{
+.name {
     text-align: center;
     color:#fff;
     text-transform: uppercase;
@@ -53,12 +53,12 @@ section{
     font-size: 4rem;
 }
 
-.name span{
+.name span {
     color:var(--main-color);
     text-transform: uppercase;
 }
 
-.name{
+.name {
     margin-top: 1rem;
     display: inline-block;
     padding:.9rem 3rem;
@@ -68,11 +68,11 @@ section{
     cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
     letter-spacing: .2rem;
 }
 
-.header{
+.header {
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -88,34 +88,34 @@ section{
     height: 6rem;
 }
 
-.header .navigation a{
+.header .navigation a {
     margin:0 1rem;
     font-size: 1.6rem;
     color:#fff;
 }
 
-.header .navigation a:hover{
+.header .navigation a:hover {
     color:var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
 }
 
-.header .button div{
+.header .button div {
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
 }
 
-.header .button div:hover{
+.header .button div:hover {
     color:var(--main-color);
 }
 
-#main-btn{
+#main-btn {
     display: none;
 }
 
-.header .searching-form{
+.header .searching-form {
     position: absolute;
     top:115%; right: 7%;
     background: #fff;
@@ -127,11 +127,11 @@ section{
     transform-origin: top;
 }
 
-.header .searching-form.active{
+.header .searching-form.active {
     transform: scaleY(1);
 }
 
-.header .searching-form input{
+.header .searching-form input {
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
@@ -140,18 +140,18 @@ section{
     text-transform: none;
 }
 
-.header .searching-form label{
+.header .searching-form label {
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 1.5rem;
     color:var(--black);
 }
 
-.header .searching-form label:hover{
+.header .searching-form label:hover {
     color:var(--main-color);
 }
 
-.header .cart{
+.header .cart {
     position: absolute;
     top:100%; right: -100%;
     height: calc(100vh - 9.5rem);
@@ -160,11 +160,11 @@ section{
     padding:0 1.5rem;
 }
 
-.header .cart.active{
+.header .cart.active {
     right: 0;
 }
 
-.header .cart .cart-entity{
+.header .cart .cart-entity {
     position: relative;
     margin:2rem 0;
     display: flex;
@@ -172,7 +172,7 @@ section{
     gap:1.5rem;
 }
 
-.header .cart .cart-entity .fas fa-times{
+.header .cart .cart-entity .fas fa-times {
     position: absolute;
     top:1rem; right: 1rem;
     font-size: 2rem;
@@ -180,31 +180,31 @@ section{
     color: var(--black);
 }
 
-.header .cart .cart-entity .fas fa-times:hover{
+.header .cart .cart-entity .fas fa-times:hover {
     color:var(--main-color);
 }
 
-.header .cart .cart-entity img{
+.header .cart .cart-entity img {
     height: 7rem;
 }
 
-.header .cart .cart-entity .product h3{
+.header .cart .cart-entity .product h3 {
     font-size: 2rem;
     color:var(--black);
     padding-bottom: .5rem;
 }
 
-.header .cart .cart-entity .product .cost{
+.header .cart .cart-entity .product .cost {
     font-size: 1.5rem;
     color:var(--main-color);
 }
 
-.header .cart .button{
+.header .cart .button {
     width: 100%;
     text-align: center;
 }
 
-.top{
+.top {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -213,17 +213,17 @@ section{
     background-position: center;
 }
 
-.top .product{
+.top .product {
     max-width: 60rem;
 }
 
-.top .product h3{
+.top .product h3 {
     font-size: 6rem;
     text-transform: uppercase;
     color:#fff;
 }
 
-.top .product p{
+.top .product p {
     font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
@@ -231,92 +231,92 @@ section{
     color:#eee;
 }
 
-.intro .column{
+.intro .column {
     display: flex;
     align-items: center;
     background:var(--black);
     flex-wrap: wrap;
 }
 
-.intro .column .pic{
+.intro .column .pic {
     flex:1 1 45rem;
 }
 
-.intro .column .pic img{
+.intro .column .pic img {
     width: 100%;
 }
-.intro .column .product{
+.intro .column .product {
     flex:1 1 45rem;
     padding:2rem;
 }
 
-.intro .column .product h3{
+.intro .column .product h3 {
     font-size: 3rem;
     color:#fff;
 }
 
-.intro .column .product p{
+.intro .column .product p {
     font-size: 1.6rem;
     color:#ccc;
     padding:1rem 0;
     line-height: 1.8;
 }
 
-.main .item-container{
+.main .item-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.main .item-container .item{
+.main .item-container .item {
     padding:5rem;
     text-align: center;
     border:var(--border);    
 }
 
-.main .item-container .item img{
+.main .item-container .item img {
     height: 10rem;
 }
 
-.main .item-container .item h3{
+.main .item-container .item h3 {
     color: #fff;
     font-size: 2rem;
     padding:1rem 0;
 }
 
-.main .item-container .item .cost{
+.main .item-container .item .cost {
     color: #fff;
     font-size: 2.5rem;
     padding:.5rem 0;
 }
 
-.main .item-container .item .cost span{
+.main .item-container .item .cost span {
     font-size: 1.5rem;
     text-decoration: line-through;
     font-weight: lighter;
 }
 
-.main .item-container .item:hover{
+.main .item-container .item:hover {
     background:#fff;
 }
 
-.main .item-container .item:hover > *{
+.main .item-container .item:hover > * {
     color:var(--black);
 }
 
-.items .item-container{
+.items .item-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.items .item-container .item{
+.items .item-container .item {
     text-align: center;
     border:var(--border);
     padding: 2rem;
 }
 
-.items .item-container .item .button a{
+.items .item-container .item .button a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -326,106 +326,106 @@ section{
     margin:.3rem;
 }
 
-.items .item-container .item .button a:hover{
+.items .item-container .item .button a:hover {
     background:var(--main-color);
 }
 
-.items .item-container .item .pic{
+.items .item-container .item .pic {
     padding: 2.5rem 0;
 }
 
-.items .item-container .item .pic img{
+.items .item-container .item .pic img {
     height: 25rem;
 }
 
-.items .item-container .item .product h3{
+.items .item-container .item .product h3 {
     color:#fff;
     font-size: 2.5rem;
 }
 
-.items .item-container .item .product .beans{
+.items .item-container .item .product .beans {
     padding: 1.5rem;
 }
 
-.items .item-container .item .product .beans i{
+.items .item-container .item .product .beans i {
     font-size: 1.7rem;
     color: var(--main-color);
 }
 
-.items .item-container .item .product .cost{
+.items .item-container .item .product .cost {
     color:#fff;
     font-size: 2.5rem;
 }
 
-.items .item-container .item .product .cost span{
+.items .item-container .item .product .cost span {
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
 }
 
-.rating .item-container{
+.rating .item-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.rating .item-container .item{
+.rating .item-container .item {
     border:var(--border);
     text-align: center;
     padding:3rem 2rem;
 }
 
-.rating .item-container .item p{
+.rating .item-container .item p {
     font-size: 1.5rem;
     line-height: 1.8;
     color:#ccc;
     padding:2rem 0;
 }
 
-.rating .item-container .item .customer{
+.rating .item-container .item .customer {
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.rating .item-container .item h3{
+.rating .item-container .item h3 {
     padding:1rem 0;
     font-size: 2rem;
     color:#fff;
 }
 
-.rating .item-container .item .beans i{
+.rating .item-container .item .beans i {
     font-size: 1.5rem;
     color:var(--main-color);
 }
 
-.social .column{
+.social .column {
     display: flex;
     background:var(--black);
     flex-wrap: wrap;
     gap:1rem;
 }
 
-.social .column .map{
+.social .column .map {
     flex:1 1 45rem;
     width: 100%;
     object-fit: cover;
 }
 
-.social .column form{
+.social .column form {
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
 }
 
-.social .column form h3{
+.social .column form h3 {
     text-transform: uppercase;
     font-size: 3.5rem;
     color:#fff;
 }
 
-.social .column form .form{
+.social .column form .form {
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -434,13 +434,13 @@ section{
     border:var(--border);
 }
 
-.social .column form .form span{
+.social .column form .form span {
     color:#fff;
     font-size: 2rem;
     padding-left: 2rem;
 }
 
-.social .column form .form input{
+.social .column form .form input {
     width: 100%;
     padding:2rem;
     font-size: 1.7rem;
@@ -449,70 +449,70 @@ section{
     background:none;
 }
 
-.articles .item-container{
+.articles .item-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.articles .item-container .item{
+.articles .item-container .item {
     border:var(--border);    
 }
 
-.articles .item-container .item .pic{
+.articles .item-container .item .pic {
     height: 25rem;
     overflow:hidden;
     width: 100%;
 }
 
-.articles .item-container .item .pic img{
+.articles .item-container .item .pic img {
     height: 100%;
     object-fit: cover;
     width: 100%;
 }
 
-.articles .item-container .item:hover .pic img{
+.articles .item-container .item:hover .pic img {
     transform: scale(1.2);
 }
 
-.articles .item-container .item .product{
+.articles .item-container .item .product {
     padding:2rem;
 }
 
-.articles .item-container .item .product .title{
+.articles .item-container .item .product .title {
     font-size: 2.5rem;
     line-height: 1.5;
     color:#fff;
 }
 
-.articles .item-container .item .product .title:hover{
+.articles .item-container .item .product .title:hover {
     color:var(--main-color);
 }
 
-.articles .item-container .item .product span{
+.articles .item-container .item .product span {
     color:var(--main-color);
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
 }
 
-.articles .item-container .item .product p{
+.articles .item-container .item .product p {
     font-size: 1.6rem;
     line-height: 1.8;
     color:#ccc;
     padding:1rem 0;
 }
 
-.bottom{
+.bottom {
     background:var(--black);
     text-align: center;
 }
 
-.bottom .send{
+.bottom .send {
     padding:1rem 0;
 }
 
-.bottom .send a{
+.bottom .send a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -523,11 +523,11 @@ section{
     border-radius: 50%;
 }
 
-.bottom .send a:hover{
+.bottom .send a:hover {
     background-color: var(--main-color);
 }
 
-.bottom .ref{
+.bottom .ref {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -535,7 +535,7 @@ section{
     gap:1rem;
 }
 
-.bottom .ref a{
+.bottom .ref a {
     padding:.7rem 2rem;
     color:#fff;
     border:var(--border);
@@ -546,7 +546,7 @@ section{
     background:var(--main-color);
 }
 
-.bottom .author{
+.bottom .author {
     font-size: 2rem;
     color:#fff;
     font-weight: lighter;
@@ -557,20 +557,8 @@ section{
     color:var(--main-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
-@media (max-width:991px){
+@media (max-width:991px) {
 
     html{
         font-size: 55%;
@@ -586,13 +574,13 @@ section{
 
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
     #main{
         display: inline-block;
     }
 
-    .header .navigation{
+    .header .navigation {
         position: absolute;
         top:100%; right: -100%;
         background: #fff;
@@ -600,11 +588,11 @@ section{
         height: calc(100vh - 9.5rem);
     }
 
-    .header .navigation.active{
+    .header .navigation.active {
         right:0;
     }
 
-    .header .navigation a{
+    .header .navigation a {
         color:var(--black);
         display: block;
         margin:1.5rem;
@@ -612,12 +600,12 @@ section{
         font-size: 2rem;
     }
 
-    .header .searching-form{
+    .header .searching-form {
         width: 90%;
         right: 2rem;
     }
 
-    .top{
+    .top {
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -633,7 +621,7 @@ section{
 
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
 
     html{
         font-size: 50%;
