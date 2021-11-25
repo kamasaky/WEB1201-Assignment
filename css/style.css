@@ -52,6 +52,17 @@ section {
     font-size: 4rem;
 }
 
+
+.add-to-cart {
+    text-align: center;
+    background-color:#C2B280;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.3em 0.3em 0.3em 0.em;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 .name span {
     color:var(--main-color);
     text-transform: uppercase;
